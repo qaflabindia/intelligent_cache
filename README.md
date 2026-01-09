@@ -1,7 +1,6 @@
 # Intelligent Cache <img src="icons/icon48.png" align="center" width="32" height="32">
 
 ![Version](https://img.shields.io/badge/version-1.0-blue)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)
 ![Status](https://img.shields.io/badge/status-active-success)
 
@@ -49,7 +48,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 
-This project is dual-licensed:
-
-- **Source Code**: Licensed under the [MIT License](LICENSE).
-- **Documentation & Assets**: Licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/).
+This project is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/).
