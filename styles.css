@@ -1,0 +1,40 @@
+/* Intelligent Cache - Restored & Refined Dot UI */
+
+/* Note: Dots are now injected directly into element containers */
+
+.ic-dot {
+    position: absolute !important;
+    display: block !important;
+    width: 14px !important;
+    height: 14px !important;
+    border-radius: 50% !important;
+    border: 2px solid white !important;
+    pointer-events: none !important;
+
+    /* Ensure visibility over complex overlays (Apple uses z-index around 9999 for some nav elements) */
+    z-index: 2147483647 !important;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4) !important;
+    transition: background-color 0.2s ease, transform 0.2s ease !important;
+    /* Default top-left position relative to the container. 
+       Removed !important to allow JS to override for loose containers (WordPress regression fix) */
+    top: 5px;
+    left: 5px;
+}
+
+/* LIVE = GREEN */
+.ic-dot-live {
+    background-color: #10b981 !important;
+    box-shadow: 0 0 10px rgba(16, 185, 129, 0.6) !important;
+}
+
+/* LOCAL = BLUE */
+.ic-dot-local {
+    background-color: #3b82f6 !important;
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.6) !important;
+}
+
+/* Fallback for misplaced dots if container is too small */
+.ic-dot:hover {
+    transform: scale(1.5);
+}
